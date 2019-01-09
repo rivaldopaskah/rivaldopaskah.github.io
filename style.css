@@ -1,0 +1,48 @@
+body {
+    font-family: arial;
+}
+
+#pascal {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#pascal div {
+    color:black;
+}
+
+.pascal div {
+    color:black;
+}
+
+.underline-bold { 
+        font-weight: normal;
+        display: inline;
+}
+
+.active {
+    color: orange;
+}
+
+nav a {
+    color: red;
+    transition: .5s all;
+}
+
+nav {
+    font-size: 30px; 
+}
+nav a:hover {
+    /*font-size: 130%;*/
+    color:blue;
+}
+
+.social {
+    color: orange;
+    text-decoration: none;
+    transition:.5s all;
+    font-size: 50px;
+}
+
+.social:hover {
+    color:blue;
+}
